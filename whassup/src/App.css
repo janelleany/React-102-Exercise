@@ -22,7 +22,29 @@
   font-size: large;
 }
 
+.App-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+.SupList-container {
+  display: flex;
+  flex-direction: column;
+  min-width: 500px;
+  max-width: 700px;
+}
+
+.Sup-container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(181, 121, 238);
+  margin: 12px;
+  padding: 12px;
+  font-size: .75em;
 }
